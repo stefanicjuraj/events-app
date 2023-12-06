@@ -26,3 +26,6 @@ This repository contains the Swift code for managing Google Firebase database wi
 
 The primary focus is on the FirestoreManager class and the EventsApp SwiftUI application. FirestoreManager is responsible for fetching and managing event data from Firestore, while EventsApp serves as the main entry point of the application. FirestoreManager is an ObservableObject class that fetches and stores event data from Firestore. It publishes an array of Event objects that can be observed by SwiftUI views. 
 
+<img src="./lib/assets/events-screen.png" height="100%" width="100%">
+
+<img src="./lib/assets/event-screen.png" height="100%" width="100%">
