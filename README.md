@@ -19,3 +19,10 @@ iOS Swift application fetching and displaying events with Google Firebase (Fires
   - Calculates remaining days until the event.
 - [x] **Dark Mode & Light Mode**
   - Automatic by detecting user settings.
+
+### Integration
+
+This repository contains the Swift code for managing Google Firebase database within an iOS application. The application utilizes `GoogleService-Info.plist`; a configuration file used in iOS applications that integrate Firebase services. 
+
+The primary focus is on the FirestoreManager class and the EventsApp SwiftUI application. FirestoreManager is responsible for fetching and managing event data from Firestore, while EventsApp serves as the main entry point of the application. FirestoreManager is an ObservableObject class that fetches and stores event data from Firestore. It publishes an array of Event objects that can be observed by SwiftUI views. 
+
